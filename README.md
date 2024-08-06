@@ -1,6 +1,8 @@
 # Minimal.Api.VSA
-.NET8 Web API.
+.NET8 Minimal Web API.
 Applied architecture, approaches, practises:
+
+You need to have installed at least MSSQL Server Express
 
 1. Minimal APIs
 2. Vertical slice architecture
