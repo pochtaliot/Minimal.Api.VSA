@@ -6,6 +6,5 @@ public static class Datasource
     public static void RegisterDb(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<ProductsDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-        //services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("MinimalApiDb"));
     }
 }
