@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimal.Api.Unit.Tests", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimal.Api.Integration.Tests", "Minimal.Api.Integration.Tests\Minimal.Api.Integration.Tests.csproj", "{13A73242-405B-4A64-8623-8597C6348B03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal.Api.Authentication", "Minimal.Api.Authentication\Minimal.Api.Authentication.csproj", "{4282E1E5-66BE-4423-B297-121AA61B0476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimal.Api.Authentication", "Minimal.Api.Authentication\Minimal.Api.Authentication.csproj", "{4282E1E5-66BE-4423-B297-121AA61B0476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal.Api.Shared", "Minimal.Api.Shared\Minimal.Api.Shared.csproj", "{F8199D67-E43B-4403-95AC-313555C48889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimal.Api.Shared", "Minimal.Api.Shared\Minimal.Api.Shared.csproj", "{F8199D67-E43B-4403-95AC-313555C48889}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
