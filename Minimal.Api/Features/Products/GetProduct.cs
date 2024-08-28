@@ -1,5 +1,6 @@
 ﻿using Mapster;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Minimal.Api.Contracts.Products;
 using Minimal.Api.Database;
 using Minimal.Api.Shared;

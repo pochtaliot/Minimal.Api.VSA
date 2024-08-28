@@ -14,5 +14,5 @@ public class GetAllProductsHandler : IRequestHandler<GetAllProductsQuery, IEnume
         _dbContext = dbContext;
 
     public async Task<IEnumerable<ProductResponse>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken) => 
-        (await _dbContext.Products.Take(50).ToListAsync(cancellationToken)).Adapt<IEnumerable<ProductResponse>>();
+        (await _dbContext.Products.Take(50).AsNoTracking().ToListAsync(cancellationToken)).Adapt<IEnumerable<ProductResponse>>();
 }
